@@ -1,0 +1,164 @@
+div 
+{
+border-radius: 10px;
+margin: auto;
+width: 1024px;
+}
+
+#logo, #banner, #footer, .menu, .conteudo
+{
+margin-bottom: 10px;
+border: 2px dotted gray;
+background-color: white;
+}
+
+#logo, #banner
+{
+height: 120px;
+margin-top: 15px;
+}
+
+#logo, .menu
+{
+width: 195px;
+float: left;
+border: none;
+}
+
+#banner, .conteudo
+{
+width: 815px;
+float: right;
+}
+
+#banner
+{
+border: none;
+}
+/* NÃO ESQUECER DE REMOVER O ATRIBUTO BORDER DOS IDS INVIDIUAIS QUANDO O MESMO FOR REMOVIDO DO GERAL */
+/*
+.menu
+{
+height: 500px;
+}
+*/
+
+.conteudo
+{
+height: 800px;
+border-radius: 0px 15px 0px 15px;
+}
+
+#footer
+{
+height: 30px;
+clear: both;
+border-radius: 0px 0px 15px 15px;
+border: 2px solid gray;
+background-color: #FFFFF0;
+}
+
+body
+{
+background-image:url('../img/bg.png');
+font-family: 'Nunito', sans-serif;
+}
+
+#logo
+{
+background-image:url('../img/ranasa_logo.png');
+background-repeat:no-repeat;
+}
+
+#rodape
+{
+text-align: center;
+margin-top: 5px;
+font-family: 'Nunito', sans-serif;
+}
+
+/*
+#lista_menu
+
+{
+margin: 10px 10px 0 0px;
+text-align: right;
+list-style-type: none;
+font-family: 'Hammersmith One', sans-serif;
+font-size: 23px;
+line-height: 35px;
+}
+*/
+
+input, option
+{
+border-radius: 10px;
+font-size: 20px;
+height: 23px;
+font-family: 'Nunito', sans-serif;
+}
+
+textarea
+{
+border-radius: 10px;
+font-family: 'Nunito', sans-serif;
+font-size: 20px;
+}
+
+#busca
+{
+width: 182px;
+margin-left: 6px;
+margin-top: 15px;
+font-family: 'Hammersmith One', sans-serif;
+}
+
+#branco:focus
+{
+background-color: white;
+}
+
+fieldset
+{
+width: 750px;
+margin-left: auto;
+margin-right: auto;
+border: none;
+/*
+border-radius: 5px;
+border: 2px dotted gray;
+*/
+}
+
+#btn_limpar, #btn_enviar
+{
+width: 100px;
+height: 30px;
+font-size: 20px;
+}
+
+#b_align
+{
+width: 250px;
+border: none;
+margin: auto;
+}
+.post1{
+	background:lavender;
+	width:100%;
+	border:dotted 1px #0000DD;
+	border-radius:5px;
+	font-family:verdana;
+	font-size:18px;
+	}
+	
+.post1:hover{
+	background:#FFF;
+	width:100%;
+	border:dotted 1px #0000DD;
+	border-radius:5px;
+	}
+	
+.red{
+	color:red;
+	}

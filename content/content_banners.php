@@ -1,0 +1,1 @@
+<embed src="flash/propaganda.swf" width="815px" height="120px"></embed>
